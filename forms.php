@@ -1,8 +1,8 @@
 <?php
-    $servername = 'GRPJNG011204080'; // ou IP do servidor MySQL
-    $username = 'root';
-    $password = 'password';
-    $database = 'FINANCEIRAS';
+    $servername = 'seu servidor';
+    $username = 'seu usuário';
+    $password = 'seu senha, se não tem senha. Só vazio';
+    $database = 'sua tabela dados';
 
     header('Content-Type: text/html; charset=UTF-8');
 
