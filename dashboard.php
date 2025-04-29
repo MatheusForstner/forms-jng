@@ -2,10 +2,10 @@
     date_default_timezone_set('America/Sao_Paulo');
     header('Content-Type: text/html; charset=UTF-8');
 
-    $servername = 'GRPJNG011204080';
-    $username = 'root';
-    $password = 'password';
-    $database = 'FINANCEIRAS';
+    $servername = 'seu servidor';
+    $username = 'seu usuário';
+    $password = 'seu senha, se não tem senha. Só vazio';
+    $database = 'sua tabela dados';
 
     // Conexão com MySQL
     $conn = mysqli_connect($servername, $username, $password, $database);
